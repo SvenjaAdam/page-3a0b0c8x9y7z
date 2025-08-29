@@ -3,8 +3,8 @@ import "./App.css";
 import { motion } from "motion/react"
 import AnimatedGift from "./components/AnimatedGift";
 import "./components/AnimatedGift.css";
-// GIF wird aus dem public Ordner geladen
-const cat = "./GIF-Bild.gif";
+// GIF wird direkt von GitHub Pages geladen
+const cat = "https://svenjaadam.github.io/page-3a0b0c8x9y7z/GIF-Bild.gif";
 
 
 export default function App() {
