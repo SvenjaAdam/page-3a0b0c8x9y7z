@@ -66,6 +66,10 @@ function Present() {
         className="cat-gif"
         alt="Cat GIF"
         style={{ width: '200px', height: 'auto' }}
+        onError={(e) => {
+          console.log('GIF failed to load, trying alternative path');
+          e.target.src = './GIF-Bild.gif';
+        }}
       />
 
       <h4 className="birthday-message">
