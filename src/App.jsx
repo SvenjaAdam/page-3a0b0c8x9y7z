@@ -61,12 +61,11 @@ function Present() {
       {console.log("present opened")}
       <h4 className="birthday-title">Happy Birthday!</h4>
 
-      <motion.img
-        src={cat}
+      <img
+        src="https://svenjaadam.github.io/page-3a0b0c8x9y7z/GIF-Bild.gif"
         className="cat-gif"
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ delay: 0, duration: 0.8 }}
+        alt="Cat GIF"
+        style={{ width: '200px', height: 'auto' }}
       />
 
       <h4 className="birthday-message">
