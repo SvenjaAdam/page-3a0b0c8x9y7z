@@ -65,13 +65,13 @@ function Present() {
         className="cat-gif"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        transition={{ delay: 0.1, duration: 0.8 }}
+        transition={{ delay: 0, duration: 0.8 }}
       />
 
       <h4 className="birthday-message">
-        Von Herzen alles Liebe zum Geburtstag wünscht dir ... <br />
-        {'<3'}
+        Von Herzen alles Liebe zum Geburtstag wünscht dir dein Favorite Jerk 🐸 <br />
       </h4>
+      <h3 className="love-message">Ich Liebe Dich ❤️</h3>
     </div>
   );
 }

@@ -4,6 +4,7 @@
   padding: 0rem;
   text-align: center;
   max-height: 100vh;
+  font-family: Cambria, 'Times New Roman', serif;
 }
 
 
@@ -15,42 +16,10 @@
   align-items: center;
   background: #d0ecf5;
   color: black;
+  font-family: Cambria, 'Times New Roman', serif;
 }
 
 
-/* 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
-
-/* Present Component Styles */
 .present-container {
   display: flex;
   flex-direction: column;
@@ -62,30 +31,33 @@
 }
 
 .birthday-title {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(4rem, 5vw, 4rem);
   margin: 0 0 3vh 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Cambria, 'Times New Roman', serif;
 }
 
 .cat-gif {
-  max-width: min(40vw, 300px);
-  max-height: min(40vh, 250px);
-  margin: 2vh 0;
+  max-width: min(60vw, 400px);
+  max-height: min(60vh, 400px);
+  margin: 0.5vh 0;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .birthday-message {
-  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   margin: 2vh 0 0 0;
   line-height: 1.4;
   max-width: 90%;
+  font-family: Cambria, 'Times New Roman', serif;
 }
 
-/* .card {
-  padding: 2em;
+.love-message {
+  font-size: clamp(1rem, 2vw, 2rem);
+  margin: 2vh 0 0 0;
+  line-height: 1.4;
+  max-width: 90%;
+  color: black !important;
+  font-family: Cambria, 'Times New Roman', serif;
 }
-
-.read-the-docs {
-  color: #888;
-} */
