@@ -3,7 +3,7 @@ import "./App.css";
 import { motion } from "motion/react"
 import AnimatedGift from "./components/AnimatedGift";
 import "./components/AnimatedGift.css";
-// GIF wird direkt von GitHub Pages geladen
+// GIF wird direkt von GitHub Pages geladen - NEUER PFAD
 const cat = "https://svenjaadam.github.io/page-3a0b0c8x9y7z/GIF-Bild.gif";
 
 
@@ -70,6 +70,7 @@ function Present() {
           console.log('GIF failed to load, trying alternative path');
           e.target.src = './GIF-Bild.gif';
         }}
+        onLoad={() => console.log('GIF loaded successfully!')}
       />
 
       <h4 className="birthday-message">
