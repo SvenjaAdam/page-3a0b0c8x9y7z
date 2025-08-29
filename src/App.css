@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  max-height: 100vh;
+  font-family: Cambria, 'Times New Roman', serif;
+}
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d0ecf5;
+  color: black;
+  font-family: Cambria, 'Times New Roman', serif;
+}
+
+
+.present-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2vh;
+  box-sizing: border-box;
+}
+
+.birthday-title {
+  font-size: clamp(4rem, 5vw, 4rem);
+  margin: 0 0 3vh 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Cambria, 'Times New Roman', serif;
+}
+
+.cat-gif {
+  max-width: min(60vw, 400px);
+  max-height: min(60vh, 400px);
+  margin: 0.5vh 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.birthday-message {
+  font-size: clamp(2rem, 3vw, 2rem);
+  margin: 2vh 0 0 0;
+  line-height: 1.4;
+  max-width: 90%;
+  font-family: Cambria, 'Times New Roman', serif;
+}
+
+.love-message {
+  font-size: clamp(1rem, 2vw, 2rem);
+  margin: 2vh 0 0 0;
+  line-height: 1.4;
+  max-width: 90%;
+  color: black !important;
+  font-family: Cambria, 'Times New Roman', serif;
+}
