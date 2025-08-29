@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import AnimatedGift from "./components/AnimatedGift";
 import "./components/AnimatedGift.css";
 // GIF wird aus dem public Ordner geladen
-const cat = "/GIF-Bild.gif";
+const cat = "./GIF-Bild.gif";
 
 
 export default function App() {
